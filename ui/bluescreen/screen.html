@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">  
+  <title>Blue Screen</title>
+  <link href="./style.css" rel="stylesheet">
+  <script src="./progress-bar.js"></script>
+</head>
+  
+<body> 
+  <h1>Your PC has run into a problem</h1>
+
+  <div class="message">
+    If this is your first time you've seen this error code, restart your computer.
+  </div>
+
+  <div class="message">
+    Check to make sure your hardware is installed properly.
+  </div>
+
+  <div id="tech-info">
+    Error Code: 0x000000FE (USB driver)
+  </div>
+
+  <div id="dump">
+    Dump: collecting information
+  </div>
+  <br>
+
+  <div id="val">
+    5%
+    <progress id="progress-bar" name="progress-bar" value="5" max="100"></progress>
+  </div>
+</body>
+</html>

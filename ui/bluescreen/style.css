@@ -1,0 +1,29 @@
+html {
+  /* mouse */
+  cursor: none;
+  pointer-events: none;
+}
+
+body {
+  margin: 0;
+  padding-left: 20px;
+  background-color: #02f;
+  color: #fff;
+  font-family: Arial;
+  font-size: 1rem; 
+}
+
+.message {
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+#tech-info {
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+
+progress {
+  width: 25%;
+  border: 1px solid white;    
+}
